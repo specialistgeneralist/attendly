@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
   <!-- Background shape -->
-  <rect x="0" y="0" width="100" height="100" fill="#e1e1e1" rx="10" ry="10"/>
+  <rect x="0" y="0" width="100" height="100" fill="#ffffff" rx="10" ry="10"/>
   
-  <!-- Modern church structure - main building -->
-  <path d="M20,75 L20,40 L50,20 L80,40 L80,75 Z" fill="#e1e1e1" stroke="#333333" stroke-width="1"/>
+  <!-- Modern church structure - main building (enlarged) -->
+  <path d="M10,85 L10,35 L50,10 L90,35 L90,85 Z" fill="#e1e1e1" stroke="#333333" stroke-width="1"/>
   
-  <!-- Stylized door -->
-  <rect x="42" y="55" width="16" height="20" fill="#e1e1e1" stroke="#333333" stroke-width="0.5" rx="1" ry="1"/>
+  <!-- Stylized door (repositioned and enlarged) -->
+  <rect x="40" y="60" width="20" height="25" fill="#e1e1e1" stroke="#333333" stroke-width="0.5" rx="1" ry="1"/>
   
-  <!-- Modern window element -->
-  <path d="M35,45 L50,35 L65,45 L65,50 L35,50 Z" fill="#8D794E" stroke="#333333" stroke-width="1"/>
+  <!-- Modern window element (repositioned and enlarged) -->
+  <path d="M30,45 L50,30 L70,45 L70,52 L30,52 Z" fill="#8D794E" stroke="#333333" stroke-width="1"/>
   
-  <!-- Stylized crucifix -->
-  <path d="M50,23 L50,33" stroke="#8D794E" stroke-width="2" stroke-linecap="round"/>
-  <path d="M47,26 L53,26" stroke="#8D794E" stroke-width="2" stroke-linecap="round"/>
+  <!-- Stylized crucifix (repositioned) -->
+  <path d="M50,3 L50,20" stroke="#8D794E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M43,8 L57,8" stroke="#8D794E" stroke-width="4" stroke-linecap="round"/>
   
-  <!-- Modern architectural accent -->
-  <path d="M20,40 L30,50 L30,75 L20,75 Z" fill="#8D794E" stroke="#333333" stroke-width="0.5"/>
-  <path d="M80,40 L70,50 L70,75 L80,75 Z" fill="#8D794E" stroke="#333333" stroke-width="0.5"/>
+  <!-- Modern architectural accent (repositioned and enlarged) -->
+  <path d="M10,35 L22,47 L22,85 L10,85 Z" fill="#8D794E" stroke="#333333" stroke-width="0.5"/>
+  <path d="M90,35 L78,47 L78,85 L90,85 Z" fill="#8D794E" stroke="#333333" stroke-width="0.5"/>
 </svg>
