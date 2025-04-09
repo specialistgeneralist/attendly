@@ -815,7 +815,7 @@
                         const standardError = Math.sqrt(ssResidual / (n - p));
                         
                         // Generate formula string
-                        let formula = `y = ${namedCoefficients.constant.toFixed(2)} + ${namedCoefficients.linear.toFixed(2)}x + ${namedCoefficients.quadratic.toFixed(2)}x²`;
+                        let formula = `y = ${namedCoefficients.constant.toFixed(2)} + ${namedCoefficients.linear.toFixed(4)}x + ${namedCoefficients.quadratic.toFixed(4)}x²`;
                         
                         if (includeSeasonality) {
                             formula += " + monthly effects";
