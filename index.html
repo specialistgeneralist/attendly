@@ -214,11 +214,11 @@
         <img type="image/svg+xml" src="favicon.svg">
         <h1>Attendly</h1>
         <p>Intelligent attendance insights for your church.</p>
-        <p>This app was authored by Simon Angus and Claude 3.7 Sonnet, using <a href="sodalabs.io">Monash University SoDa Lab's</a> Assistant GPT AI system.</p>
+        <p>This app was authored by Simon Angus (from <a href="https://cityonahill.com.au/melbourne-east">City on a Hill East</a> in Melbourne, Australia) and Claude 3.7 Sonnet, using <a href="sodalabs.io">Monash University SoDa Lab's</a> Assistant GPT AI system. Contact: <a href="mailto:simon.angus@monash.edu?Subject:Attendly">email Simon</a>.</p>
         
         <div class="upload-section">
             <h2>Upload Attendance Data</h2>
-            <p>Upload a CSV file with attendance data. The file should include columns for Date, Attendance_type, Service_name, Attendance, and AM_PM.</p>
+            <p>Upload a CSV file with attendance data. The file should include columns named <tt>Date</tt> (in DD/MM/YYYY format), <tt>Attendance_type</tt> ('Sunday services', 'City Kids'), <tt>Service_name</tt> ('AM_1', 'AM_2', etc.), <tt>Attendance</tt> (count, e.g. '71'), and <tt>AM_PM</tt> (morning/evening grouping, e.g. 'AM', 'PM'). This format follows City on a Hill's internal reporting style.</p>
             <input type="file" id="csvFile" accept=".csv">
             <button id="uploadBtn">Upload and Analyze</button>
             <div id="uploadStatus"></div>
@@ -226,10 +226,10 @@
                 <div class="spinner"></div>
                 <p>Processing data...</p>
             </div>
-            <div>
+            <!-- <div>
                 <label><input type="checkbox" id="showDebug"> Show Debug Info</label>
             </div>
-            <div id="debugInfo"></div>
+            <div id="debugInfo"></div> -->
         </div>
         
         <div id="analysisSection" style="display: none;">
